@@ -1,12 +1,12 @@
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyDd1_A22EfQ5ZSJcsWjNs4bsYCA_r4e438",
-  authDomain: "dubaiessentia.firebaseapp.com",
-  databaseURL: "https://dubaiessentia-default-rtdb.firebaseio.com",
-  projectId: "dubaiessentia",
-  storageBucket: "dubaiessentia.firebasestorage.app",
-  messagingSenderId: "933984094760",
-  appId: "1:933984094760:web:1b67b9baa2c8e0a439431d"
+  apiKey: "AIzaSyAvp4Xd2sXHXcjmtnt_AVv4L42IwzY2dDY",
+  authDomain: "unierafashion.firebaseapp.com",
+  databaseURL: "https://unierafashion-default-rtdb.firebaseio.com",
+  projectId: "unierafashion",
+  storageBucket: "unierafashion.firebasestorage.app",
+  messagingSenderId: "749498855963",
+  appId: "1:749498855963:web:24c1bfcdbd681a57547ebe"
 };
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
